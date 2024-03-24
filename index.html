@@ -6,23 +6,40 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfólio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles\style.css">
     </head>
 
     <body>
-        <header></header>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a href="index.html" class="cabecalho__menu__link">Home</a>
+                <a href="sobre-mim.html" class="cabecalho__menu__link">Sobre mim</a>
+            </nav>
+        </header>
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
                 <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="destaque">com um Front-end de qualidade!</strong></h1>
                 <p class="apresentacao__conteudo__texto">Olá! Sou Pedro Henrique, desenvolvedor Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://www.instagram.com/pedrohenli/" >Instagram</a>
-                    <a class="apresentacao__links__link"  href="https://github.com/pepemesquita">Github</a>
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                    
+                    <a class="apresentacao__links__navegacao"  href="https://github.com/pepemesquita">
+                        <img src="assets/github.png" alt="Icon do github" height="20px">
+                        Github
+                    </a>
+                    <a class="apresentacao__links__navegacao"  href="https://www.linkedin.com/in/pedro-henrique-l-359a4b13b/">
+                        <img  src="assets/linkedin.png" alt="Icon do Linkedin" height="20px">
+                        Linkedin
+                    </a>
                 </div>
             </section>
-        <img src="arquivos/eu.jpg" alt="Foto do Pedro" width = "437.71px" height = "422px">
+        <img class="apresentacao__imagem" src="assets/eu.jpg" alt="Foto do Pedro" width = "440px" height = "422px">
         </main>
-        <footer></footer>
+        <footer class="rodape">
+            <p>Desenvolvido por Pedro H.</p>
+        </footer>
     </body>
 
 </html>
+
+
