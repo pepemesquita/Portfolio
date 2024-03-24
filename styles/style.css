@@ -122,8 +122,9 @@ body {
     transition: all .2s ease-in;
 } 
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-terciaria); 
+
     color: whitesmoke;   
 }
 
